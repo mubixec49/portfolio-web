@@ -1,0 +1,95 @@
+.p-profile {
+    background-image: url(/assets/imgs/profile.png);
+    width: 90%;
+    height: 570px;
+    padding: 20%;
+    margin-right: 12%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.p-rgt-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-tag {
+    background: #c8cbcf;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.p-des {
+    color: #a8a394;
+    width: 80%;
+}
+
+form .form-group {
+    box-shadow: 1px 2px 12px 1px black;
+}
+
+form .form-control {
+    min-height: 60px;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    background-color: #fff;
+    width: calc(100% - 141px);
+}
+
+form .btn-warning {
+    /* min-height: 60px;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 35px;
+    font-weight: 500; */
+    min-height: 42px;
+    border: 0;
+    border-radius: 0;
+    padding: 5px 33px;
+    font-weight: 500;
+}
+
+.p-newsletter {
+    font-size: 19px;
+
+}
+
+.form-inline {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .form-inline input[type="email"] {
+  width: 10%;
+}
+
+.form-inline button[type="submit"] {
+  margin-left: 10px;
+}
+
+.oval-button {
+    background-color: #e5e74d; /* Light pink background color */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Creates an oval shape */
+    padding: 10px 20px; /* Adjusts padding for the button size */
+    color: #ffffff; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer */
+    text-align: center; /* Centers text */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.oval-button:hover {
+    background-color: #e5e74d; /* Slightly darker pink on hover */
+}
+
+.hi-there {
+    font-style: italic; font-size: large; font-weight: bold;
+}
