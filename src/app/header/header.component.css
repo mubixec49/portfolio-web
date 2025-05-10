@@ -22,7 +22,7 @@ a {
     width: 10px;
 }
 
-.p-hamburger span:nth-last-child() {
+.p-hamburger span:nth-last-child(1) {
     margin-bottom: 0;
 }
 
